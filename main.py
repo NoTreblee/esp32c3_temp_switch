@@ -4,6 +4,7 @@ import dht
 from machine import Pin
 import urequests
 import json
+from config import *
 
 dht_sensor = dht.DHT11(Pin(5))
 led = Pin(8, Pin.OUT)
